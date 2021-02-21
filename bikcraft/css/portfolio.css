@@ -1,0 +1,106 @@
+.introducao-portfolio{
+    margin-top: 92px;
+    height: 160px;
+    background: url(/img/bg-portfolio.jpg) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.introducao-portfolio h1{
+    padding-top: 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.introducao-portfolio h1:after{
+
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 8px auto 4px auto;
+    background-color: #ffffff;
+
+}
+
+.introducao-portfolio p{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.feedback{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    max-width: 450px;
+    margin: auto;
+
+}
+.feedback p{
+    font-size: 18px;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.feedback cite{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+}
+
+
+.page-porfolfio{
+    padding-bottom: 40px;
+}
+
+/*Slide Portfolio quote*/
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+}
+
+/*Slide portfolio imagens*/
+
+
+.js [data-slide-nav]{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+.js [data-slide-nav] button{
+
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    padding: 0;
+    margin: 4px;
+    text-indent: -9999px;
+    width: 12px;
+    height: 12px;
+    outline: none;
+    overflow: hidden;
+    background-color: #1d1d1d;
+    
+}
+
+.js [data-slide-nav] button.active{
+    background-color: #fec63e;
+}

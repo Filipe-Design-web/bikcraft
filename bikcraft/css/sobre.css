@@ -1,0 +1,86 @@
+.introducao-externa{
+    width: 100%;
+    height: 160px;
+    margin-top: 92px;
+    background: url(/img/bg-sobre.jpg) no-repeat center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.introducao-externa h1{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.introducao-externa h1:after{
+    content: "";
+    background-color: #ffffff;
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 6px auto 10px auto;
+}
+
+.introducao-externa p{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+
+/*Missao sobre e historia*/
+
+
+.historia-missao-valores{
+    padding-top: 60px;
+}
+
+.subtitulo-interno{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 30px;
+}
+
+
+.historia-missao-valores h2:After{
+    content: "";
+    background-color: #000000;
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 12px 0 20px 0;
+}
+
+
+.historia-missao-valores p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+
+    padding-right: 60px;
+
+
+    padding-bottom: 1em;
+}
+
+
+
+.historia-missao-valores ul li{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.historia-missao-valores .foto-equipe{
+    padding-top: 20px;
+}
+
+.page-qualidade ul{
+    overflow: auto;   /*Fix da page sobre > seçao qualidade*/
+}
